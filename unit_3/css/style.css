@@ -1,0 +1,195 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 18px;
+	color: #222222;
+	line-height: 1.3;
+	background-color: #ff9900;
+}
+
+header {
+	background-color: #00a3ca;
+	height: 25px;
+	width: 100%;
+	padding: 20px;
+	position: fixed;
+}
+
+#logobg {
+	background: url(../images/agency-hero1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 100%;
+	-webkit-transition: all ease;
+	-0-transition: all ease;
+	-moz-transition: all ease;
+	transition: all ease;
+}
+
+.parallaxbg {
+    min-height: 800px;
+    width: 100%;
+    background: transparent;
+}
+
+.button {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    background-color: #ff9900;  
+    border-radius: 12px;
+    color: white;
+    letter-spacing: 1.5px;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 515px;
+    margin-top: 40px;
+}
+
+.button:hover {
+    background-color: #00a3ca;  
+    color: white;
+}
+
+div.transbox {  
+    background-color: #ffffff;
+    border: 0px;
+    opacity: 0.6;
+    filter: alpha(opacity=60); 
+    width: 500px;
+    height: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div.headline {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-weight: bold;
+    color: #000000; 
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%
+    transform translate(-50%, -50%);
+}
+
+#slogan {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	float: center;
+	/*width: 100%;*/
+}
+
+
+.bilineblock {
+	background-color: #ff9900;
+	width: 100%;
+	height: 200px;
+}
+
+a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color: #e8e4e4;
+}
+
+nav {
+	float: right;
+	margin-top: 5px;
+}
+
+nav a {
+	color: #000000;
+	font-size: 16px;
+	font-style: bold;
+	margin-left: 20px;
+	margin-right: 40px;
+}
+
+video {
+	width: 100%;
+	height: auto;
+}
+
+ul {
+	padding: 20px;
+}
+
+h1 {
+	color: #FFEFE5;
+	text-align: center;
+	font-size: 28px;
+	padding-top: 55px;
+}
+
+h2 {
+	color: #00a3ca;
+	text-align: center;
+	text-shadow: 2px 2px 5px #000000;
+	font-size: 42px;
+	padding-top: 300px;
+}
+
+h3 {
+	color: #ffffff;
+	font-size: 20px;
+	text-align: left;
+}
+
+h4 {
+	color: #777777;
+	font-size: 16px;
+}
+
+h5 {
+
+}
+
+h6 {
+	color: #ffffff;
+	text-align: center;
+	font-size: 10px;
+}
+
+main {
+	background-color: #000000;
+	height: 250px;
+}
+
+
+#left-column {
+	padding-top: 20px;
+	float: left;
+	width: 30%;
+	padding-left: 5%; 
+}
+
+#middle-column {
+	padding-top: 20px;
+	float: middle;
+	display: inline-block;
+	width: 30%;
+}
+
+#right-column {
+	padding-top: 20px;
+	float: right;
+	width: 30%; 
+	padding-left: 5%; 
+}
+
+footer {
+	background-color: #ff9900;
+	padding: 20px;
+	text-align: center;
+}

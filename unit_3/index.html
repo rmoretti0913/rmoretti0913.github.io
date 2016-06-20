@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome to MMG Creative</title>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="js/parallax.min.js"></script>
+	<script src="jquery.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+	<header>
+		<a href="index.html"><img src="images/logo.png" alt="Moretti Media Group" title="Moretti Media Group Creative">
+		<nav>
+			<a href="#">HOME</a>
+			<a href="#">WHAT WE DO</a>
+			<a href="#">OUR WORK</a>
+			<a href="#">ABOUT US</a>
+			<a href="#">CONTACT</a>
+		</nav>
+	</header>
+
+
+	<div class="parallaxbg" data-parallax="scroll" data-image-src="images/agency-hero1.jpg" width="100%"><h2 class="slogan">Where Creativity<p>Meets Immagination!</h2></p><button class="button" align="center">DISCOVER</button></div></div>
+
+	<div class="bilineblock">
+		<h1>With a passion for innovation and a love for creativity,<p>we at MMG Creative strive to bring your vision to life.</p></h1></div>
+
+	 <section>
+		<video width="100%" autoplay loop>
+		  <source src="video/hawaii-sample-no-sound.mp4" type="video/mp4">
+		  <source src="video/hawaii-sample-no-sound.webm" type="video/webm">
+		</video>
+	</section>
+ 
+	<div class="bilineblock">
+		<h1>Sample text of what we do and offer<p>and why to choose MMG Creative.</p></h1>
+
+	<div class="parallaxbg" data-parallax="scroll" data-image-src="images/studio-2.jpg" width="100%"></div>
+
+	<main>
+	<section id="left-column">
+		<h3>SERVICES</h3>
+		<ul>
+			<h4>
+			<li>Web Design & Development</li>
+			<li>Video Editing</li>
+			<li>Production</li>
+			<li>Post-Production</li>
+			<li>Film Budgeting & Marketing Plans</li>
+			<li>Marketing and Branding</li></h4>
+
+		</ul><br>
+	</section> 
+
+	<section id="middle-column">
+		<h3>CONNECT WITH MMG</h3><br>
+		<a href="http://www.facebook.com/robmoretti" target="_blank"><img class="socialmedia" src="images/icon-facebook.png" alt="Facebook Icon" title="Connect with us on Facebook"></a>
+		<a href="http://www.twitter.com/robmoretti" target="_blank"><img class="socialmedia" src="images/icon-twitter.png" alt="Twitter Icon" title="Connect with us on Twitter"></a>
+		<a href="http://www.linkedin.com/in/robmoretti" target="_blank"><img class="socialmedia" src="images/icon-linkedin.png" alt="LinkedIn Icon" title="Connect with us on LinkedIn"></a>
+		<a href="https://plus.google.com/u/0/+RobMoretti-actor/posts/p/pub" target="_blank"><img class="socialmedia" src="images/icon-google.png" alt="Google+ Icon" title="Connect with us on Google+"></a>
+		<a href="https://www.instagram.com/robmoretti/" target="_blank"><img class="socialmedia" src="images/instagram-logo.png" alt="Instagram Icon" title="Connect with us on Instagram"></a><br><br>
+		<h4><p>Subscribe to our Newsletter</p></h4>
+	</section>
+
+	<section id="right-column">
+		<h3>CONTACT US</h3><br>
+		<h4><p>Moretti Media Group, LLC<br>
+		30 Gates Avenue, STE 305<br>
+		Montclair, NJ 07042<br>
+		(973) 220-0893<br><br>
+		E-Mail: <a href="mailto:rob@robmoretti.com">rob@robmoretti.com</a></p><br></h4>
+	</section>
+</main>
+	
+<footer>
+	<p><a href="#">Back to Top</p><br>
+	<h6>Copyright 2016 Moretti Media Group.  All Rights Reserved.</h6>
+</footer>
+	
+
+	<script type="text/javascript">
+		(function () {
+			var documentElement = $(document),
+				logoBg = $('div.parallaxbg#logobg'),
+				secondpanelBg = $('div.parallaxbg#secondpanel');
+				thirdpanelBg = $('div.parallaxbg#thirdpanel');
+				slogan = $('div.slogan#logobg');
+
+			documentElement.on('scroll', function() {
+				var currScrollPos = documentElement.scrollTop();
+				logoBg.css('background-position', '0 ' + -currScrollPos/4 + 'px');
+				secondpanelBg.css('background-position', '0 ' + (100+(-currScrollPos/4)) + 'px');
+				thirdpanelBg.css('background-position', '0 ' + (550+(-currScrollPos/4)) + 'px');
+			})
+		})();
+	 </script>
+</body>
+</html>
