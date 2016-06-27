@@ -1,0 +1,196 @@
+@import 'https://fonts.googleapis.com/css?family=Merriweather:300,400,700,900|Alegreya:400,400i,700|Rubik+Mono+One';
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
+}
+
+body {
+	font-family: 'Merriweather', sans-serif;
+	font-size: 16px;
+	color: #222222;
+	line-height: 1.3;
+	background-color: #000;
+}
+
+header {
+	background-color: #ffed74;
+	border: 1px black solid;
+	height: 70px;
+	width: 100%;
+	padding: 20px;
+	position: fixed;
+}
+
+.logobg {
+	background: url(../images/agency-hero1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 90vh;
+	text-align: center;
+	-webkit-transition: all ease;
+	-o-transition: all ease;
+	-moz-transition: all ease;
+	transition: all ease;
+}
+
+.discover {
+	font-family: 'Rubik Mono One' sans-serif;
+	background-color: #e8674f;
+	border-radius: .25em;
+	color: white;
+	letter-spacing: 2px;
+	padding: .5em 1em;
+	font-size: 2em;
+	display: inline-block;
+	text-align: center;
+	margin-top: 1em;
+}
+
+.discover:hover {
+    background-color: #00a3ca;  
+    color: white;
+}
+
+#slogan {
+	font-family: 'Merriweather', sans-serif;
+	float: center;
+}
+
+.bilineblock {
+	font-family: 'Merriweather', sans-serif;
+	background-color: #ffe2b8;
+	border: 1px black solid;
+	width: 100%;
+	height: 200px;
+}
+
+.socialmedia {
+	margin-top: 20px;
+	display: inline-block;
+}
+
+a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color: #e8e4e4;
+}
+
+nav {
+	background-color: #e8c66a;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	margin-top: 5px;
+}
+
+nav a {
+	color: #fff;
+	display: inline-block;
+	padding: 8px;
+}
+
+video {
+	width: 100%;
+	height: auto;
+}
+
+ul {
+	padding: 20px;
+}
+
+h1 {
+	color: #fff;
+	font-size: 45px;
+	padding-top: 200px;
+}
+
+h2 {
+	color: #FFEFE5;
+	text-align: center;
+	font-size: 28px;
+	padding-top: 55px;
+	width: 100%;
+}
+
+h3 {
+	color: #ffffff;
+	font-size: 20px;
+	text-align: left;
+}
+
+h4 {
+	color: #ffffff;
+	font-size: 16px;
+	margin-top: 20px;
+}
+
+h5 {
+	color: white;
+	font-size: 14px;
+
+}
+
+h6 {
+	color: #ffffff;
+	font-size: 10px;
+	margin-top: 20px;
+}
+
+ul {
+	margin-left: 10px;
+	color: white;
+}
+
+address {
+	color: white;
+	font-size: 14px;
+	margin-top: 20px;
+}
+
+span {
+	background: rgba(0,163,202,0.8);
+	display: inline-block;
+	padding: 1em;
+	border-radius: .25em;
+}
+
+main {
+	background-color: #ffe2b8;
+	border: 1px black solid;
+	overflow: hidden;
+	width: 1200px;
+	margin: auto;
+}
+
+main section {
+	padding-top: 20px;
+	float: left;
+	width: 33.33%;
+}
+
+footer {
+	background-color: #ff957e;
+	border: 1px black solid;
+	padding: 20px;
+	text-align: center;
+}
+
+#wrapper {
+	width: 100%;
+}
+
+.clearfix:after {
+	display: block;
+	content: " ";
+	clear: both;
+
+	height: 0;
+	font-size: 0;
+	visibility; hidden;
+}
