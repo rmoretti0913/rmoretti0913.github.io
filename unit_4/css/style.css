@@ -22,6 +22,15 @@ header {
 	position: fixed;
 }
 
+.clearfix:after{
+	visibility: hidden;
+	height: 0;
+	font-size: 0;
+	content:" ";
+	display: block;
+	clear:both;
+}
+
 .logobg {
 	background: url(../images/agency-hero1.jpg);
 	background-size: cover;
@@ -34,6 +43,20 @@ header {
 	-moz-transition: all ease;
 	transition: all ease;
 }
+
+.filmset {
+	background: url(../images/studio-4.jpg);
+	background-size: cover;
+/*	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 90vh;
+	text-align: center;
+	-webkit-transition: all ease;
+	-o-transition: all ease;
+	-moz-transition: all ease;
+	transition: all ease;*/
+}
+
 
 .discover {
 	font-family: 'Rubik Mono One' sans-serif;
