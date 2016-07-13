@@ -18,7 +18,7 @@ header {
 	background-color: #00a3ca;
 	height: 70px;
 	width: 100%;
-	padding: 20px;
+	padding: 1.5em;
 	position: fixed;
 }
 
@@ -26,7 +26,7 @@ header {
 	background: url(../images/agency-hero1.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
+	background-attachment: scroll;
 	height: 90vh;
 	text-align: center;
 	-webkit-transition: all ease;
@@ -39,7 +39,20 @@ header {
 	background: url(../images/studio-4.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
+	background-attachment: scroll;
+	height: 90vh;
+	text-align: center;
+	-webkit-transition: all ease;
+	-o-transition: all ease;
+	-moz-transition: all ease;
+	transition: all ease;
+}
+
+.logobg2 {
+	background: url(../images/studio-2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
 	height: 90vh;
 	text-align: center;
 	-webkit-transition: all ease;
@@ -83,24 +96,43 @@ header {
 	display: inline-block;
 }
 
+.container {
+	width: 100%;
+	padding-top: 10em;
+	padding-left: 18em;
+	padding-right: 10em;
+}
+
 a {
 	color: #ffffff;
 	text-decoration: none;
 }
 
 a:hover, a:active {
-	color: #e8e4e4;
+	color: #404546;
+}
+
+p {
+	background-color: #00a3ca;
+	border-radius: .25em;
+	padding: .5em 1em;
+	font-size: 20px;
+	text-align: center;
+	text-decoration: none;
+}
+
+p:hover, p:active {
+	color: #404546;
 }
 
 nav {
 	float: right;
-	margin-top: 5px;
 }
 
 nav a {
 	color: #fff;
 	display: inline-block;
-	padding: 8px;
+	padding: .5em 1.5em;
 }
 
 video {
@@ -141,6 +173,7 @@ h4 {
 h5 {
 	color: white;
 	font-size: 14px;
+	padding: 0 0 .8em;
 
 }
 
@@ -157,6 +190,7 @@ ul {
 
 address {
 	color: white;
+	line-height: 1.5em;
 	font-size: 14px;
 	margin-top: 20px;
 }
@@ -171,14 +205,14 @@ span {
 main {
 	background-color: #000000;
 	overflow: hidden;
-	width: 100%;
+	width: 50%;
 	margin: auto;
 }
 
 main section {
-	padding-top: 20px;
+	padding: 50px;
 	float: left;
-	width: 33.33%;
+	width: 50%;
 }
 
 .clearfix:after{
@@ -190,8 +224,10 @@ main section {
 	clear:both;
 }
 
+/*//The .services is for Waht We Do page//*/
+
 .services {
-	width: 22%;
+	width: 33%;
 	border-radius: .35em;
 	margin: 1em;
 	padding: 10px;
@@ -203,7 +239,7 @@ main section {
 }
 
 .services img {
-	max-width: 100%;
+	max-width: 80%;
 	display: block;
 	padding-bottom: 10px;
 	margin: auto;
@@ -214,10 +250,44 @@ main section {
 	margin: .5em;
 }
 
+.services1 {
+	width: 25%;
+	border-radius: .35em;
+	margin: 1em;
+	padding: 10px;
+	float: left;
+	text-align: left;
+	color: white;
+	line-height: 1.5em;
+	background-color: rgba(0,0,0,.8);
+}
+
+.services1 img {
+	max-width: 100%;
+	display: block;
+	padding-bottom: 10px;
+	margin: auto;
+}
+
+.services1 > h3{
+	text-align: center;
+	margin: .5em;
+}
+
+/*//The form and inputs are for Contact Us page//*/
+
 form {
-	padding-top: 20px;
-	padding-left: 50px;
-	padding-bottom: 20px;
+	width: 60%;
+	background-color: rgba(0,0,0,.8);
+	font-family: 'Merriweather';
+	border: 2px solid #00a3ca;
+	padding: 10px;
+	border-radius: 10px;
+	text-align: left;
+	display: inline-block;
+	margin-top: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
 }
 
 form + h4 {
@@ -229,8 +299,8 @@ form + h4 {
 
 input[type=text], select {
 	font-size: 16px;
-	background-color: #00a3ca;
-    width: 50%;
+	background-color: #ffffff;
+    width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -238,6 +308,30 @@ input[type=text], select {
     border-radius: 4px;
     box-sizing: border-box;
 }
+
+textarea {
+	font-size: 16px;
+	background-color: #ffffff;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/*input[type=textarea], select {
+	font-size: 16px;
+	background-color: #ffffff;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}*/
 
 input[type=submit] {
 	font-size: 16px;
@@ -252,6 +346,23 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
+    background-color: #00a3ca;
+}
+
+input[type=reset] {
+	font-size: 16px;
+    width: 25%;
+    background-color: #e8674f;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    float: right;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=reset]:hover {
     background-color: #00a3ca;
 }
 
