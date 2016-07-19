@@ -175,6 +175,30 @@ header {
 	margin: auto;
 }
 
+.services1 {
+	width: 25%;
+	border-radius: .35em;
+	margin: 1em;
+	padding: 10px;
+	float: left;
+	text-align: left;
+	color: white;
+	line-height: 1.5em;
+	background-color: rgba(0,0,0,.8);
+}
+
+.services1 img {
+	max-width: 100%;
+	display: block;
+	padding-bottom: 10px;
+	margin: auto;
+}
+
+.services1 > h3{
+	text-align: center;
+	margin: .5em;
+}
+
 a {
 	color: #ffffff;
 	text-decoration: none;
@@ -303,7 +327,7 @@ figcaption {
 
 /*//The .services is for Waht We Do page//*/
 
-.services {
+/*.services {
 	width: 33%;
 	border-radius: .35em;
 	margin: 1em;
@@ -325,31 +349,7 @@ figcaption {
 .services > h3{
 	text-align: center;
 	margin: .5em;
-}
-
-.services1 {
-	width: 25%;
-	border-radius: .35em;
-	margin: 1em;
-	padding: 10px;
-	float: left;
-	text-align: left;
-	color: white;
-	line-height: 1.5em;
-	background-color: rgba(0,0,0,.8);
-}
-
-.services1 img {
-	max-width: 100%;
-	display: block;
-	padding-bottom: 10px;
-	margin: auto;
-}
-
-.services1 > h3{
-	text-align: center;
-	margin: .5em;
-}
+}*/
 
 /*//The form and inputs are for Contact Us page//*/
 
