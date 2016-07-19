@@ -79,6 +79,24 @@ header {
     color: white;
 }
 
+.getquote {
+	font-family: 'Rubik Mono One' sans-serif;
+	background-color: #e8674f;
+	border-radius: .25em;
+	color: white;
+	letter-spacing: 1px;
+	padding: .5em .5em;
+	font-size: 1em;
+	display: inline-block;
+	text-align: center;
+	margin-top: .5em;
+}
+
+.getquote:hover {
+    background-color: #00a3ca;  
+    color: white;
+}
+
 .learnmore {
 	font-family: 'Rubik Mono One' sans-serif;
 	background-color: #e8674f;
