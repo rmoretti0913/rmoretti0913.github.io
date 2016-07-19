@@ -325,32 +325,6 @@ figcaption {
 	clear:both;
 }
 
-/*//The .services is for Waht We Do page//*/
-
-/*.services {
-	width: 33%;
-	border-radius: .35em;
-	margin: 1em;
-	padding: 10px;
-	float: left;
-	text-align: left;
-	color: white;
-	line-height: 1.5em;
-	background-color: #00a3ca;
-}
-
-.services img {
-	max-width: 80%;
-	display: block;
-	padding-bottom: 10px;
-	margin: auto;
-}
-
-.services > h3{
-	text-align: center;
-	margin: .5em;
-}*/
-
 /*//The form and inputs are for Contact Us page//*/
 
 form {
