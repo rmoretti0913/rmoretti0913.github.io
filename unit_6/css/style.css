@@ -134,9 +134,10 @@ header {
 
 .container {
 	width: 100%;
-	padding-top: 10em;
+/*	padding-top: 10em;
 	padding-left: 18em;
-	padding-right: 10em;
+	padding-right: 10em;*/
+	margin: auto;
 }
 
 .container1 {
@@ -175,11 +176,12 @@ header {
 }*/
 
 .services1 {
-	width: 25%;
+	width: 30%;
 	border-radius: .35em;
 	margin: 1em;
 	padding: 10px;
-	float: left;
+	/*float: left;*/
+	display: inline-block;
 	text-align: left;
 	color: white;
 	line-height: 1.5em;
@@ -288,7 +290,7 @@ span {
 main {
 	background-color: #000000;
 	overflow: hidden;
-	width: 50%;
+	width: 75%;
 	margin: auto;
 }
 
@@ -328,9 +330,9 @@ figcaption {
 /*//The form and inputs are for Contact Us page//*/
 
 form {
+	font-family: 'Merriweather';
 	width: 60%;
 	background-color: rgba(0,0,0,.8);
-	font-family: 'Merriweather';
 	border: 2px solid #00a3ca;
 	padding: 10px;
 	border-radius: 10px;
@@ -388,7 +390,7 @@ input[type=submit]:hover {
     background-color: #00a3ca;
 }
 
-input[type=reset] {
+/*input[type=reset] {
 	font-size: 16px;
     width: 25%;
     background-color: #e8674f;
@@ -403,7 +405,7 @@ input[type=reset] {
 
 input[type=reset]:hover {
     background-color: #00a3ca;
-}
+}*/
 
 footer {
 	background-color: #e8674f;
