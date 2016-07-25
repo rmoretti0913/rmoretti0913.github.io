@@ -272,6 +272,7 @@ figcaption {
 }
 
 .myservice > h3 {
+	padding-bottom: .5em;
 	color: #00a3ca;
 	font-size: 32px;
 }
