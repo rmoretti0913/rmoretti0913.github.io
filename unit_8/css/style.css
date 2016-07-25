@@ -124,7 +124,7 @@ h5 {
 
 h6 {
 	color: #ffffff;
-	font-size: 10px;
+	font-size: 12px;
 	margin-top: 1.5em;
 }
 
@@ -359,7 +359,8 @@ textarea {
 }
 
 input[type=submit] {
-	font-size: 16px;
+	font-family: 'Merriweather'
+	font-size: 1em;
     width: 25%;
     background-color: #e8674f;
     color: white;
