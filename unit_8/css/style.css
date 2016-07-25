@@ -251,6 +251,7 @@ figcaption {
 .container {
 	width: 100%;
 	margin: auto;
+	padding-top: 1.75em;
 }
 
 .myservicearea {
