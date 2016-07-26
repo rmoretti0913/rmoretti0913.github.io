@@ -16,7 +16,7 @@ body {
 
 header {
 	background-color: #00a3ca;
-	height: 13%;
+	height: 10%;
 	width: 100%;
 	padding: 1.5em;
 	position: fixed;
@@ -92,7 +92,7 @@ ul {
 h1 {
 	color: #fff;
 	font-size: 45px;
-	padding-top: 3.5em;
+	padding-top: 6em;
 }
 
 h2 {
@@ -435,11 +435,11 @@ footer {
 	}
 }
 @media screen and (max-width: 719px){
-	header {
+/*	header {
 		height: 16%;
 		width: 100%;
 		padding: 1.5em;
-	}
+	}*/
 	.services {
 		width: 60%;
 		display: inline-block;
