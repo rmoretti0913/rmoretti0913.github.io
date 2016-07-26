@@ -395,8 +395,8 @@ footer {
 	.logobg1 {
 		height: 100vh;
 	}
-	h1 {
-		padding-top: 6em;
+/*	h1 {
+		padding-top: 6em;*/
 	}
 }
 @media screen and (max-width: 1190px){
