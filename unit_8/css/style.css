@@ -388,10 +388,10 @@ footer {
 
 /*Media Queries*/
 
-@media screen and (min-width: 2550px){
-	header {
+@media screen and (min-width: 2560px){
+/*	header {
 		height: 13%;
-	}
+	}*/
 	.logobg1 {
 		height: 100vh;
 	}
