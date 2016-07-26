@@ -390,6 +390,9 @@ footer {
 	h1 {
 		padding-top: 6em;
 	}
+	header {
+		height: 13%;
+	}
 }
 
 @media screen and (max-width: 1190px){
