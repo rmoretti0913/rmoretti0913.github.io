@@ -386,12 +386,14 @@ footer {
 	margin: auto;
 }
 
+/*Media Queries*/
+
 @media screen and (min-width: 2560px){
 	h1 {
 		padding-top: 6em;
 	}
 }
-@media screen and (max-width: 2560px){
+@media screen and (min-width: 2560px){
 	header {
 		height: 13%;
 	}
@@ -399,7 +401,6 @@ footer {
 		height: 100vh;
 	}
 }
-
 @media screen and (max-width: 1190px){
 	.services {
 		width: 35%;
