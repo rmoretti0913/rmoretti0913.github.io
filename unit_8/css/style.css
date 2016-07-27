@@ -16,7 +16,7 @@ body {
 
 header {
 	background-color: #00a3ca;
-	height: 10%;
+	height: 13%;
 	width: 100%;
 	padding: 1.5em;
 	position: fixed;
@@ -40,7 +40,7 @@ header {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: scroll;
-	height: 90vh;
+	height: 100vh;
 	text-align: center;
 	-webkit-transition: all ease;
 	-moz-transition: all ease;
@@ -50,6 +50,18 @@ header {
 
 .logobg2 {
 	background: url(../images/studio-2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	height: 90vh;
+	text-align: center;
+	-webkit-transition: all ease;
+	-moz-transition: all ease;
+	-o-transition: all ease;
+	transition: all ease;
+}
+.logobg3 {
+	background: url(../images/studio-4a.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: scroll;
@@ -175,6 +187,13 @@ figcaption {
 	text-align: center;
 	font-size: 12px;
 	font-style: italic;-s
+}
+
+label {
+	color: #fff;
+	float: right;
+	padding: .5em 1.5em;
+	display: none;
 }
 
 .discover {
@@ -380,6 +399,10 @@ footer {
 	text-align: center;
 }
 
+#toggle {
+	display: none;
+}
+
 .wrapper {
 	color: white;
 	width: 100%;
@@ -388,16 +411,6 @@ footer {
 
 /*Media Queries*/
 
-@media screen and (min-width: 1950px) and (max-width: 2560px){
-	header {
-		height: 13%;
-	}
-	.logobg1 {
-		height: 100vh;
-	}
-/*	h1 {
-		padding-top: 6em;*/
-}
 @media screen and (max-width: 1190px){
 	.services {
 		width: 35%;
@@ -413,20 +426,40 @@ footer {
 } 
 @media screen and (max-width: 930px){
 	.services {
-		width: 40%;
+		width: 38%;
 		display: inline-block;
 		margin: 1em;
 	}
 	.logobg1 {
 		background: url(../images/studio-4.jpg);
 		background-size: cover;
-		height: 220vh;
+		height: 180vh;
 	}
 	span {
 		padding: .50em;
 	}
+	h1 {
+		font-size: 42px;
+		padding-top: 3.5em;
+	}
+	.discover {
+		font-size: 1.8em;
+		margin-top: 1em;
+	}
 }
-@media screen and (max-width: 930px){
+@media screen and (max-width: 835px){
+	.services {
+		width: 42%;
+		display: inline-block;
+		margin: 1em;
+	}
+	.logobg1 {
+		background: url(../images/studio-4.jpg);
+		background-size: cover;
+		height: 180vh;
+	}
+}
+@media screen and (max-width: 756px){
 	.services {
 		width: 45%;
 		display: inline-block;
@@ -435,41 +468,42 @@ footer {
 	.logobg1 {
 		background: url(../images/studio-4.jpg);
 		background-size: cover;
-		height: 210vh;
-	}
-	h1 {
-		font-size: 36px;
-		padding-top: 3.5em;
-	}
-	.discover {
-		font-size: 1.7em;
-		margin-top: 1em;
+		height: 175vh;
 	}
 }
-@media screen and (max-width: 719px){
-/*	header {
-		height: 16%;
-		width: 100%;
+/*@media screen and (max-width: 730px){
+	nav {
+		display: inline-block;
 		padding: 1.5em;
+	}
+	nav a {
+		color: #fff;
+		display: inline-block;
+		padding: .5em 1.5em;
+	}
+/*	label {
+		display: block;
+	}
+	label:hover, a:active {
+		color: #404546;
 	}*/
+/*	#toggle:checked + nav {
+		display: block;
+	}*/
+/*	header {
+		height: 20%;
+	}
+}*/
+
+@media screen and (max-width: 720px){
 	.services {
-		width: 60%;
+		width: 45%;
 		display: inline-block;
 		margin: 1em;
 	}
 	.logobg1 {
-		background: url(../images/studio-7.jpg);
+		background: url(../images/studio-4.jpg);
 		background-size: cover;
-		height: 190vh;
-	}
-	h1 {
-		font-size: 40px;
-		padding-top: 5em;
-	}
-	.discover {
-		font-size: 1.7em;
-		margin-top: 1em;
+		height: 165vh;
 	}
 }
-
-
