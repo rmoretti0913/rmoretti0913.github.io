@@ -16,7 +16,7 @@ body {
 
 header {
 	background-color: #00a3ca;
-	height: 13%;
+/*	height: 13%;*/
 	width: 100%;
 	padding: 1.5em;
 	position: fixed;
@@ -196,6 +196,19 @@ label {
 	display: none;
 }
 
+/*#logo {
+	background:url(../images/logo.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: scroll;
+	-webkit-transition: all ease;
+	-moz-transition: all ease;
+	-o-transition: all ease;	
+	transition: all ease;
+	float: left;
+	padding: 6em;
+}*/
+
 .discover {
 	font-family: 'Alegreya:700' serif;
 	background-color: #e8674f;
@@ -259,7 +272,7 @@ label {
 	font-family: 'Merriweather', sans-serif;
 	background-color: #e8674f;
 	width: 100%;
-	padding: .5em;
+	padding: 1.5em 2em;
 }
 
 .socialmedia {
@@ -471,29 +484,6 @@ footer {
 		height: 175vh;
 	}
 }
-/*@media screen and (max-width: 730px){
-	nav {
-		display: inline-block;
-		padding: 1.5em;
-	}
-	nav a {
-		color: #fff;
-		display: inline-block;
-		padding: .5em 1.5em;
-	}
-/*	label {
-		display: block;
-	}
-	label:hover, a:active {
-		color: #404546;
-	}*/
-/*	#toggle:checked + nav {
-		display: block;
-	}*/
-/*	header {
-		height: 20%;
-	}
-}*/
 
 @media screen and (max-width: 720px){
 	.services {
