@@ -20,6 +20,7 @@ header {
 	width: 100%;
 	padding: 1.5em;
 	position: fixed;
+	z-index: 1;
 }
 
 .logobg {
@@ -501,6 +502,9 @@ footer {
 		text-align: center;
 		padding: .5em;
 	}
+	h1 {
+		padding-top: 4em;
+	}
 }
 @media screen and (max-width: 720px){
 	.services {
@@ -509,7 +513,7 @@ footer {
 		margin: 1em;
 	}
 	h1 {
-		padding-top: 4em;
+		padding-top: 4.5em;
 	}
 	main section {
 		width: 100%;
@@ -521,6 +525,25 @@ footer {
 	h3 {
 		text-align: center;
 	}
+	figure {
+		width: 80%;
+		margin: auto;
+		float: none;
+	}
+	figure + img {
+		width: 70%;
+		margin: auto;
+		float: none;
+	}
+	.myservicearea {
+		width: 100%
+	}
+	.myservice {
+		width: 100%
+	}
+	form {
+		width: 80%;
+	}
 }
 @media screen and (max-width: 702px){
 	.services {
@@ -529,6 +552,7 @@ footer {
 @media screen and (max-width: 560px){
 	h1 {
 		font-size: 38px;
+		padding-top: 5em;
 	}
 }
 @media screen and (max-width: 464px){
@@ -537,10 +561,20 @@ footer {
 	}
 	h1 {
 		font-size: 32px;
-		padding-top: 5em;
+		padding-top: 6em;
+	}
+	h2 {
+		font-size: 22px;
 	}
 	.services {
 		width: 75%;
+	}
 }
-
+@media screen and (max-width: 464px) {
+	main {
+		width: 90%;
+	}
+	.myservicearea {
+		margin: 4em auto;
+	}
 }
