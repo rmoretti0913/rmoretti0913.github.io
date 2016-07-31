@@ -467,8 +467,9 @@ footer {
 	}
 }
 @media screen and (max-width: 768px){
-	.services {
-		width: 44%
+		.logobg1 {
+		background: url(../images/studio-4.jpg);
+		background-size: cover;
 		height: initial;
 	}
 }
@@ -478,11 +479,11 @@ footer {
 		display: inline-block;
 		margin: 1em;
 	}
-	.logobg1 {
+/*	.logobg1 {
 		background: url(../images/studio-4.jpg);
 		background-size: cover;
 		height: 175vh;
-	}
+	}*/
 }
 @media screen and (max-width: 750px) {
 	nav {
