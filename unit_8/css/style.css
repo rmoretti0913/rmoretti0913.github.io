@@ -446,7 +446,7 @@ footer {
 		padding: .50em;
 	}
 	h1 {
-		font-size: 42px;
+		font-size: 43px;
 		padding-top: 3.5em;
 	}
 	.discover {
@@ -478,16 +478,50 @@ footer {
 		height: 175vh;
 	}
 }
-
+@media screen and (max-width: 750px) {
+	nav {
+		float: none;
+	}
+	nav a {
+			padding: 1.5em 1.5em;
+	}
+	header {
+		text-align: center;
+		padding: .5em;
+	}
+}
 @media screen and (max-width: 720px){
 	.services {
 		width: 45%;
-		display: inline-block;
+		height: initial;
 		margin: 1em;
 	}
 	.logobg1 {
 		background: url(../images/studio-4.jpg);
 		background-size: cover;
-		height: 165vh;
+		/*height: 165vh;*/
+		height: initial;
+	}
+	h1 {
+		padding-top: 4em;
+	}
+	main section {
+		width: 100%;
+	}
+	.socialmedia {
+		float: none;
+		text-align: center;
+	}
+	h3 {
+		text-align: center;
+	}
+}
+@media screen and (max-width: 702px){
+	.services {
+		width: 55%;
+}
+@media screen and (max-width: 560px){
+	h1 {
+		font-size: 38px;
 	}
 }
