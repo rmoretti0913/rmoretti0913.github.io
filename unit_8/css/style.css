@@ -466,6 +466,12 @@ footer {
 		height: 180vh;
 	}
 }
+@media screen and (max-width: 768px){
+	.services {
+		width: 44%
+		height: initial;
+	}
+}
 @media screen and (max-width: 756px){
 	.services {
 		width: 45%;
