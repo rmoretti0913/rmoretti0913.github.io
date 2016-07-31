@@ -532,11 +532,15 @@ footer {
 	}
 }
 @media screen and (max-width: 464px){
-		nav a {
+	nav a {
 			padding: 1em 1em .5em .5em;
 	}
 	h1 {
 		font-size: 32px;
 		padding-top: 5em;
 	}
+	.services {
+		width: 75%;
+}
+
 }
