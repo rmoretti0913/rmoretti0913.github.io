@@ -16,7 +16,6 @@ body {
 
 header {
 	background-color: #00a3ca;
-/*	height: 13%;*/
 	width: 100%;
 	padding: 1.5em;
 	position: fixed;
@@ -196,19 +195,6 @@ label {
 	padding: .5em 1.5em;
 	display: none;
 }
-
-/*#logo {
-	background:url(../images/logo.png);
-	background-repeat: no-repeat;
-	background-size: 100%;
-	background-attachment: scroll;
-	-webkit-transition: all ease;
-	-moz-transition: all ease;
-	-o-transition: all ease;	
-	transition: all ease;
-	float: left;
-	padding: 6em;
-}*/
 
 .discover {
 	font-family: 'Alegreya:700' serif;
