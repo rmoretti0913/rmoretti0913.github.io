@@ -431,17 +431,22 @@ footer {
 	}
 
 } 
+@media screen and (max-width: 930px) {
+	.logobg1 {
+		height: initial;
+	}
+}
 @media screen and (max-width: 930px){
 	.services {
 		width: 38%;
 		display: inline-block;
 		margin: 1em;
 	}
-	.logobg1 {
+/*	.logobg1 {
 		background: url(../images/studio-4.jpg);
 		background-size: cover;
 		height: 180vh;
-	}
+	}*/
 	span {
 		padding: .50em;
 	}
@@ -460,19 +465,19 @@ footer {
 		display: inline-block;
 		margin: 1em;
 	}
-	.logobg1 {
+/*	.logobg1 {
 		background: url(../images/studio-4.jpg);
 		background-size: cover;
 		height: 180vh;
-	}
-}
-@media screen and (max-width: 768px){
+	}*/
+/*}*/
+/*@media screen and (max-width: 768px){
 		.logobg1 {
 		background: url(../images/studio-4.jpg);
 		background-size: cover;
 		height: initial;
 	}
-}
+}*/
 @media screen and (max-width: 756px){
 	.services {
 		width: 45%;
@@ -503,12 +508,6 @@ footer {
 		height: initial;
 		margin: 1em;
 	}
-	.logobg1 {
-		background: url(../images/studio-4.jpg);
-		background-size: cover;
-		/*height: 165vh;*/
-		height: initial;
-	}
 	h1 {
 		padding-top: 4em;
 	}
@@ -530,5 +529,13 @@ footer {
 @media screen and (max-width: 560px){
 	h1 {
 		font-size: 38px;
+	}
+}
+@media screen and (max-width: 464px){
+		nav a {
+			padding: 1.5em 1em .5em .5em;
+	}
+	h1 {
+		font-size: 32px;
 	}
 }
