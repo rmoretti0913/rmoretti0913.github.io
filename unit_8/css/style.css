@@ -443,11 +443,6 @@ footer {
 		display: inline-block;
 		margin: 1em;
 	}
-/*	.logobg1 {
-		background: url(../images/studio-4.jpg);
-		background-size: cover;
-		height: 180vh;
-	}*/
 	span {
 		padding: .50em;
 	}
@@ -466,30 +461,13 @@ footer {
 		display: inline-block;
 		margin: 1em;
 	}
-/*	.logobg1 {
-		background: url(../images/studio-4.jpg);
-		background-size: cover;
-		height: 180vh;
-	}*/
-/*}*/
-/*@media screen and (max-width: 768px){
-		.logobg1 {
-		background: url(../images/studio-4.jpg);
-		background-size: cover;
-		height: initial;
-	}
-}*/
+}
 @media screen and (max-width: 756px){
 	.services {
 		width: 45%;
 		display: inline-block;
 		margin: 1em;
 	}
-/*	.logobg1 {
-		background: url(../images/studio-4.jpg);
-		background-size: cover;
-		height: 175vh;
-	}*/
 }
 @media screen and (max-width: 750px) {
 	nav {
@@ -503,7 +481,7 @@ footer {
 		padding: .5em;
 	}
 	h1 {
-		padding-top: 4em;
+		padding-top: 5em;
 	}
 }
 @media screen and (max-width: 720px){
@@ -513,7 +491,7 @@ footer {
 		margin: 1em;
 	}
 	h1 {
-		padding-top: 4.5em;
+		padding-top: 5.5em;
 	}
 	main section {
 		width: 100%;
@@ -552,7 +530,7 @@ footer {
 @media screen and (max-width: 560px){
 	h1 {
 		font-size: 38px;
-		padding-top: 5em;
+		padding-top: 6em;
 	}
 }
 @media screen and (max-width: 464px){
@@ -561,7 +539,7 @@ footer {
 	}
 	h1 {
 		font-size: 32px;
-		padding-top: 6em;
+		padding-top: 6.5em;
 	}
 	h2 {
 		font-size: 22px;
